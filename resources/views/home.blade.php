@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-    </head>
-    <body>
-        @include('partials.header')
-    </body>
-</html>
+@extends('layout.app')
+
+@section('titolo', 'Home')
+
+@section('main')
+    <div class="container">
+
+    </div>
+@endsection

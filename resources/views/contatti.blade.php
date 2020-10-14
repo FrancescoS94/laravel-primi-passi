@@ -1,10 +1,13 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-    </head>
-    <body>
-        @include('partials.header')
-    </body>
-</html>
+@extends('layout.app')
+
+@section('titolo', 'info-contatti')
+
+@section('main')
+    <div>
+        <ul>
+            <li>Chi Siamo</li>
+            <li>Il nostro lavoro</li>
+            <li>Lavora cn Noi</li>
+        </ul>
+    </div>
+@endsection

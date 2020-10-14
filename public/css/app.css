@@ -29,7 +29,28 @@ main {
   background-color: rgba(169, 218, 238, 0.6);
 }
 
+main h2 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+main h3 {
+  padding-bottom: 10px;
+}
+
 main img {
-  height: 250px;
+  height: 290px;
+}
+
+main .cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .card {
+  padding-left: 18px;
+  padding-top: 20px;
 }
 
